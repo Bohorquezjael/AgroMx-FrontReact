@@ -25,19 +25,19 @@ export default function Footer() {
                     <div className="d-flex justify-content-center align-items-center">
                         <div className="text-center mx-3 my-4">
                             <a href="https://facebook.com" aria-label="Facebook AgroMx" className="text-white text-decoration-none">
-                            <img src="../../../public/images/Facebook-logo.svg.png" alt="Logo de la aplicación de Facebook" width="50" height="50"/>
+                            <img src="/images/Facebook-logo.svg.png" alt="Logo de la aplicación de Facebook" width="50" height="50"/>
                                 <p className="mb-0 small mt-2">AgroMx</p>
                             </a>
                         </div>
                         <div className="text-center mx-3">
                             <a href="https://instagram.com" aria-label="Instagram AgroMx" className="text-white text-decoration-none">
-                            <img src="../../../public/images/Instagram_icon.png" alt="Logo de la aplicación de Instagram" width="50" height="50"/>
+                            <img src="/images/Instagram_icon.png" alt="Logo de la aplicación de Instagram" width="50" height="50"/>
                                 <p className="mb-0 small mt-2">AgroMx</p>
                             </a>
                         </div>
                         <div className="text-center mx-3">
                             <a href="https://web.whatsapp.com" aria-label="WhatsApp AgroMx" className="text-white text-decoration-none">
-                            <img src="../../../public/images/WhatsApp.svg.png" alt="Logo de la aplicación de WhatsApp" width="50" height="50"/>
+                            <img src="/images/WhatsApp.svg.png" alt="Logo de la aplicación de WhatsApp" width="50" height="50"/>
                                 <p className="mb-0 small mt-2">WhatsApp</p>
                             </a>
                         </div>
