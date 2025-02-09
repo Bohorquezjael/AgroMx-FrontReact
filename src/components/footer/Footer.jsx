@@ -36,7 +36,7 @@ export default function Footer() {
                             </a>
                         </div>
                         <div className="text-center mx-3">
-                            <a href="#" aria-label="WhatsApp AgroMx" className="text-white text-decoration-none">
+                            <a href="whatsap.web.com" aria-label="WhatsApp AgroMx" className="text-white text-decoration-none">
                                 <i className="fa-brands fa-square-whatsapp fa-2xl" style={{ color: '#fdbf59' }}></i>
                                 <p className="mb-0 small mt-2">WhatsApp</p>
                             </a>

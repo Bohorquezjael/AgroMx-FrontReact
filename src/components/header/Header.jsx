@@ -47,7 +47,7 @@ export default function Header() {
             {/* Barra de navegación */}
             <nav className="navbar navbar-expand-lg navbar-light" style={{ padding: 0, margin: 0 }}>
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="./index.html">Inicio</a>
+                    <a className="navbar-brand" href="../../../index.html">Inicio</a>
                     <button
                         className="navbar-toggler"
                         type="button"
