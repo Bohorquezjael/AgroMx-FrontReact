@@ -1,0 +1,108 @@
+:root{
+  --greenPrimary: #007D3C;
+}
+
+body::-webkit-scrollbar{
+  width: 0px;
+  height: 0px;
+}
+
+header,
+footer {
+  font-family: 'Nokora', sans-serif;
+}
+
+#sobre-nosotros {
+  font-family: 'Gabriela', serif;
+  font-weight: bold;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Gabriela', serif;
+}
+
+.navbar,
+.footer {
+  background-color: var(--greenPrimary);
+  /* Color de fondo */
+}
+
+footer {
+  background-color: var(--greenPrimary);
+  /* Color de fondo */
+}
+
+a {
+  color: white !important;
+}
+
+/* Para el hover también */
+a:hover {
+  color: gray;
+}
+
+
+
+.logo{
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  margin: 15px 45px 15px 45px;
+  padding-right: 100px;
+}
+
+.navbar-nav .nav-item {
+  padding-left: 20px; 
+  padding-right: 20px; 
+  font-size: 20px;
+}
+
+.navbar-brand{
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.cart{
+  font-size: 50px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.cart:hover{
+  transform: skewX(-10deg) scale(1.1);
+}
+
+.greenLine{
+  background-color: var(--greenPrimary);
+  height: 1.5rem;
+}
+
+.btn-lupa{
+  padding: 5px 10px;  
+  font-size: 12px;    
+  width: 35px;        
+  height: 35px;
+ 
+}
+
+.icono-lupa{
+  width: 15px;         
+}
+
+.icono {
+  width: 40px;  
+  height: auto;
+  margin: 0 10px; /* Espacio uniforme a los lados */
+}
+
+.col-4.col-md-4.d-flex {
+  justify-content: flex-end;  /* Asegura que los íconos estén alineados a la derecha */
+  align-items: center;  /* Alinea verticalmente */
+  gap: 15px;  /* Espaciado horizontal entre los iconos */
+  flex-direction: row; /* Asegura que estén en una línea horizontal */
+}
