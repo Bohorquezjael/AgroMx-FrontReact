@@ -14,8 +14,10 @@
 }
 
 .imagen-ods{
-    width: 80%;
-    height: 95%;
+
+    object-fit: contain;
+    width: 85%;
+    height: 85%;
     padding: 5px;
 }
 
@@ -25,17 +27,30 @@
     
 }
 
-.mision, .vision{
-    width: 20em;
-    height: 20em;
-    /* object-fit: contain; */
-}
 
 .titulo-h2{
     color: #00745F;
 }
 
-.imagen-valores{
-    width: 80%;
-    height: 95%;
+
+.imagen-mision, .imagen-vision {
+    max-width: 50%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.imagen-valores {
+    display: block;        
+    margin: 0 auto;         
+    max-width: 70%;        
+    height: auto;           
+}
+
+section {
+    text-align: center;     
+}
+
+p,.parrafo-Mision, .parrafo-Vision {
+  
+font-size: 130%;
 }
