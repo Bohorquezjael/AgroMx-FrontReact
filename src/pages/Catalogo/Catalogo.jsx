@@ -1,34 +1,74 @@
-import React, { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
+import ProductList from "./ProductList";
+import "./catalogo.css"
 
 const Catalogo = () => {
   const [productos, setProductos] = useState([]);
+  const [carrito, setCarrito] = useState([]);
+  const [cantidadCarrito, setCantidadCarrito] = useState(0);
 
   useEffect(() => {
-    // Cargar los productos desde localStorage cuando se monta el componente
-    const itemsData = localStorage.getItem("items");
-    if (itemsData) {
-      setProductos(JSON.parse(itemsData));
+    const data = localStorage.getItem("productos");
+    if (data && JSON.parse(data).length > 0) {
+      setProductos(JSON.parse(data));
+    } else {
+      fetch(`/data/data2.json`)
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error("No se pudo cargar el archivo JSON");
+          }
+          return response.json();
+        })
+        .then((data) => {
+          setProductos(data);
+          localStorage.setItem("productos", JSON.stringify(data)); // Guardamos en LocalStorage
+        })
+        .catch((error) => console.error("Error cargando el JSON:", error));
     }
   }, []);
+  
+
+  useEffect(() => {
+      if (productos.length > 0) {
+        localStorage.setItem("productos", JSON.stringify(productos));
+      }
+    }, [productos]);
+    
+
+  // const agregarProducto = (nuevoProducto) => {
+  //   setProductos([...productos, { id: Date.now(), ...nuevoProducto }]);
+  // };
+
+  const eliminarProducto = (id) => {
+    setProductos(productos.filter((p) => p.id !== id));
+  };
+
+  const eliminarTodos = () => {
+    setProductos([]);
+  };
+
+  const modificarProducto = (productoModificado) => {
+    setProductos(
+      productos.map((p) => (p.id === productoModificado.id ? productoModificado : p))
+    );
+  };
+
+  const agregarAlCarrito = (producto) => {
+    setCarrito([...carrito, producto]);
+    setCantidadCarrito(cantidadCarrito + 1);
+  };
 
   return (
-    <div className="container mt-5">
-      <h2 className="text-center">Catálogo de Productos</h2>
-      <div className="row">
-        {productos.map((producto, index) => (
-          <div className="col-md-4" key={index}>
-            <div className="card" style={{ width: "18rem" }}>
-              <img src={producto.imagenProducto} className="card-img-top" alt={producto.producto} />
-              <div className="card-body">
-                <h5 className="card-title">{producto.producto}</h5>
-                <p className="card-text">{producto.descripcion}</p>
-                <p className="card-text"><strong>Precio:</strong> ${producto.precio}</p>
-                <p className="card-text"><strong>Stock:</strong> {producto.stock}</p>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
+    <div className="container my-5 text-center">
+      <h1>Catálogo de Productos</h1>
+      <ProductList
+        productos={productos}
+        agregarAlCarrito={agregarAlCarrito}
+        eliminarProducto={eliminarProducto}
+        modificarProducto={modificarProducto}
+        />
+        <p>Carrito: {cantidadCarrito}</p>
+      <button className="btn btn-danger mb-5 w-75" onClick={eliminarTodos}>Eliminar Todos</button>
     </div>
   );
 };

@@ -10,10 +10,7 @@ import { SobreNosotros } from './pages/SobreNosotros/SobreNosotros'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import NuevosProductos from './pages/Productos/NuevosProductos';
 import Catalogo from './pages/Catalogo/Catalogo';
-
 import Inicio from './pages/Inicio';
-
-
 
 
 function App() {
