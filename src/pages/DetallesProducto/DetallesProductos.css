@@ -1,0 +1,138 @@
+:root {
+  --subTitleColor: #00745f;
+  --subTitleColor2: #ae7d00;
+  --subTitleColor3: #768300;
+  --subTitleColor4: #007d3c;
+  --subTitleColor5: white;
+
+}
+
+p {
+  font-family: 'Mako', 'serif';
+}
+
+.detallesProducto {
+  margin-left: 13%;
+  margin-right: 13%;
+}
+
+.agregar {
+  margin-left: 60% !important;
+}
+
+#imgProducto {
+  object-fit: contain;
+}
+
+#text1 {
+  font-family: 'Gabriela', 'serif';
+  color: var(--subTitleColor5);
+
+}
+
+#text2 {
+  font-family: 'Gabriela', 'serif';
+  color: var(--subTitleColor5);
+}
+
+#contenedor1 {
+  /* background-color: #A5905B; */
+  background-color: #A97F3B;
+}
+
+#contenedor2 {
+  background-color: #00745F;
+}
+
+#contenidoProduccion,
+#contenidoProducto {
+  color: white
+}
+
+.contador,
+.agregar {
+  background-color: #E17018;
+
+  border-color: #E17018;
+  color: white;
+  margin: 15%;
+}
+
+.contador:hover {
+  background-color: #ae7d00;
+  border-color: #A97F3B;
+  color: white;
+}
+
+.agregar:hover {
+  background-color: #ae7d00;
+  border-color: #A97F3B;
+  color: white;
+}
+
+
+.cantidad {
+  margin: 8%;
+}
+
+.contador {
+  height: 1%;
+}
+
+.card {
+  height: 88%;
+  border: white;
+  padding-bottom: 0% !important;
+}
+
+
+
+.card-img-top {
+  height: 55%;
+  object-fit: contain;
+}
+
+.completaCanasta {
+  margin-top: 8%;
+  margin-bottom: 4%;
+}
+
+.btnAgregar,
+.btn-primary {
+  border: #E17018;
+  width: 50% !important;
+  margin: 0%;
+}
+
+.cards {
+
+  justify-content: center;
+  margin: 0%;
+  padding: 05;
+}
+
+.card-body {
+  margin: 0%;
+  padding: 0%;
+
+}
+
+.botones {
+  margin-left: 4%;
+  margin-bottom: 5%;
+}
+
+#precio {
+  color: #768300;
+}
+
+#descripcion {
+  font-size: large;
+
+}
+
+@media (min-width: 1024px) {
+  #info {
+    margin-top: 18% !important;
+  }
+}

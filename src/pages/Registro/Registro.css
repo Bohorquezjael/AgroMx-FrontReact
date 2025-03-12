@@ -1,0 +1,78 @@
+.mako-regular {
+    font-family: "Mako", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .usuario {
+    color: black;
+    font-family: "Mako", serif;
+  }
+  
+  .nombre {
+    color: black;
+    font-family: "Mako", serif;
+  }
+  
+  .email {
+    color: black;
+    font-family: "Mako", serif;
+  }
+  
+  .contraseña {
+    color: black;
+    font-family: "Mako", serif;
+  }
+  
+  #titulo {
+    color: #00745F;
+    font-family: 'Gabriela', serif;
+  }
+  
+  #subtitulo {
+    color: #AE7D00;
+    text-align: center;
+    font-family: 'Gabriela', serif;
+  }
+  
+  .terminos-condiciones {
+    color: #AE7D00;
+    text-align: center;
+    font-family: 'Nokora', sans-serif;
+  }
+  
+  .form-check {
+    display: flex;
+    align-items: center;
+    /* Alinear verticalmente checkbox y texto */
+    gap: 6px;
+    /* Espacio entre checkbox y texto */
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .inicio-sesion {
+    color: #AE7D00;
+    text-align: center;
+    font-family: 'Nokora', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    /* espacio entre el checkbox - el texto */
+  }
+  
+  #boton-registro {
+    background-color: #E17018;
+    border-color: #000000;
+    border-width: 0.1px;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Nokora', sans-serif;
+
+  }
+  
+  #boton-registro:hover {
+    background-color: #005a48;
+    border-color: #004137;
+  }

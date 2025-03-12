@@ -59,7 +59,9 @@ function Inicio() {
 								src={product.img}
 								alt={product.name}
 							/>
-							<h4 className="productName text-center justify-content-center">{product.name}</h4>
+							<h4 className="productName text-center justify-content-center">
+								{product.name}
+							</h4>
 						</div>
 					))}
 				</div>
@@ -73,16 +75,8 @@ function Inicio() {
 					experiencia con AgroMx!
 				</p>
 
-				<div className="row align-items-center review mx-2 mt-4">
-					<div className="col-12 col-md-6 col-lg-6 text-center">
-						<img
-							className="comunidad-foto img-fluid m-2"
-							src="/images/familia-saludable.jpg"
-							alt="familia consumiendo productos de AgroMx"
-						/>
-					</div>
-					<div className="col-12 col-md-6 col-lg-6 d-flex flex-column align-items-center mt-4 
-                    ">
+				<div className="row align-items-center review mx-2 mt-4 d-flex flex-column flex-md-row-reverse">
+					<div className="col-12 col-md-6 d-flex flex-column align-items-center mt-4">
 						<h3 className="subTitle border-bottom border-1 border-dark pb-2 mx-auto mt-2">
 							Disfruta momentos únicos con lo mejor de AgroMx
 						</h3>
@@ -94,6 +88,14 @@ function Inicio() {
 							productos frescos, agroecológicos y llenos de sabor.
 							🥗🌽
 						</p>
+					</div>
+
+					<div className="col-12 col-md-6 text-center">
+						<img
+							className="comunidad-foto img-fluid m-2"
+							src="/images/familia-saludable.jpg"
+							alt="familia consumiendo productos de AgroMx"
+						/>
 					</div>
 				</div>
 			</div>
