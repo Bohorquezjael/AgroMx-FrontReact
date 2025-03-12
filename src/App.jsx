@@ -15,6 +15,7 @@ import Inicio from './pages/Inicio'
 import Login from './pages/login/Login'
 import NuevosProductos from './pages/Productos/NuevosProductos'
 import Registro from './pages/Registro/Registro'
+
 import { SobreNosotros } from './pages/SobreNosotros/SobreNosotros'
 
 
