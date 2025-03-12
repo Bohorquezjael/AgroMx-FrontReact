@@ -125,8 +125,8 @@ function SobreNosotros() {
 				<h2 className="titulo-h2 text-center">Valores</h2>
 				<img
 					className="imagen-valores img-fluid mt-2"
-					src="public/images/valores.png"
-					alt=""
+					src="/images/valores.png"
+					alt="imagen del producto"
 				/>
 			</section>
 		</main>

@@ -12,15 +12,24 @@
   "dependencies": {
     "@fontsource/gabriela": "^5.1.1",
     "@fontsource/mako": "^5.1.1",
+    "@fortawesome/fontawesome-free": "^6.7.2",
     "@popperjs/core": "^2.11.8",
     "agromx-frontreact": "file:",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
+<<<<<<< HEAD
     "jwt-decode": "^4.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.2.0",
     "styled-components": "^6.1.15"
+=======
+    "prop-types": "^15.8.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.2.0",
+    "swiper": "^11.2.4"
+>>>>>>> 31abd57fdda914e2d2e985ab26686be9cbd15d07
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",

@@ -1,0 +1,779 @@
+[
+  {
+    "id": 1,
+    "nombre": "Manzana",
+    "categoria": "Frutas",
+    "precio": 28.00,
+    "imagen": "//mercadoacasa.mx/cdn/shop/products/2502808-00-CH515Wx515H_7ddf79a2-30aa-4d06-829f-b896173133a0_grande.jpg?v=1588641604",
+    "destacado": true,
+    "descripcion": "Cosechada localmente por 'Manzanas, La Conchita'. Fuente de fibra, vitamina C y E. Una manzana equivale a 2/3 de la porción mínima diaria recomendada de fruta.",
+    "beneficios": "La manzana es una fruta rica en nutrientes. Fuente de fibra, vitamina C, E, K, potasio, cobre, además contiene antioxidantes y polifenoles.",
+    "produccion": "Producida en la Ciudad de México por la productora familiar 'Manzanas, La Conchita'.",
+    "detalles": {
+      "informacion": "Para el cultivo y cosecha de esta manzana se utilizaron técnicas agroecológicas como:",
+      "tecnicas": [
+        {
+          "nombre": "Sistema de captación de agua",
+          "descripcion": "Regada con agua de lluvia captada por medio de techos, con su respectivo sistema de riego por goteo."
+        },
+        {
+          "nombre": "Lombricomposta",
+          "descripcion": "Nutre y fertiliza el suelo haciéndolo más productivo y mitiga los daños por heladas y sequías, aumentando la respuesta a los fertilizantes."
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "nombre": "Plátano",
+    "categoria": "Frutas",
+    "precio": 18.00,
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/platano-2_540x.jpg?v=1587779653",
+    "descripcion": "Plátano orgánico producido sin agroquímicos. Perfecto para postres y batidos.",
+    "beneficios": "Rico en potasio y vitamina B6, ideal para mejorar la digestión y energía.",
+    "produccion": "Cultivado con sistemas de captación de agua y fertilización natural.",
+    "detalles": {
+      "informacion": "Para el cultivo de este plátano se implementaron prácticas ecológicas como:",
+      "tecnicas": [
+        {
+          "nombre": "Fertilización orgánica",
+          "descripcion": "Uso de compost y materia orgánica para enriquecer el suelo y evitar el uso de químicos sintéticos."
+        },
+        {
+          "nombre": "Manejo integrado de plagas",
+          "descripcion": "Se emplean métodos naturales como plantas repelentes y control biológico para evitar plagas sin agroquímicos."
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "nombre": "Naranja",
+    "categoria": "Frutas",
+    "precio": 24.00,
+    "imagen": "https://www.centralenlinea.com/images/thumbs/002/0023229_naranja-gota-de-miel_550.png",
+    "destacado": true,
+    "descripcion": "Naranja fresca y jugosa, ideal para jugos y consumo diario.",
+    "beneficios": "Rica en vitamina C, fortalece el sistema inmunológico y mejora la absorción de hierro.",
+    "produccion": "Cultivada con técnicas ecológicas para mantener su frescura y calidad.",
+    "detalles": {
+      "informacion": "Para su producción se emplearon métodos sostenibles como:",
+      "tecnicas": [
+        {
+          "nombre": "Rotación de cultivos",
+          "descripcion": "Ayuda a mantener la fertilidad del suelo y reducir la erosión."
+        },
+        {
+          "nombre": "Uso de abonos naturales",
+          "descripcion": "Se utilizan abonos orgánicos para mejorar la calidad del suelo sin químicos artificiales."
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "nombre": "Zanahoria",
+    "categoria": "Verduras",
+    "precio": 12.00,
+    "imagen": "https://www.centralenlinea.com/images/thumbs/001/0019771_zanahoria-premium_550.png",
+    "destacado": true,
+    "descripcion": "Zanahoria de alta calidad, ideal para ensaladas y guisos. Cosechada localmente por “Grupo Frucat”. Fuente de vitaminas. Contiene antioxidantes y betacarotenos. Una zanahoria equivale a 1/4 de la porción mínima diaria recomendada de vitamina A.",
+    "beneficios": "La zanahoria es una hortaliza rica en nutrientes. Buena fuente de vitamina A, C, K, potasio, y antioxidantes como el betacaroteno. Es excelente para la salud ocular, fortalece el sistema inmunológico y promueve la salud de la piel. Nuestra Zanahoria está producida localmente por ‘Grupo Frucat, una productora familiar que cosecha sin agroquímicos, utilizando técnicas sostenibles. Al comprar, apoyas a la economía local, reduces la contaminación y mejoras tu bienestar.",
+    "produccion": "Cultivada sin agroquímicos, con métodos de agricultura regenerativa.",
+    "detalles": {
+      "informacion": "Para su cultivo se emplearon técnicas ecológicas como:",
+      "tecnicas": [
+        {
+          "nombre": "Asociación de cultivos",
+          "descripcion": "Sembrada junto con otras plantas para mejorar la fertilidad del suelo y controlar plagas de manera natural."
+        },
+        {
+          "nombre": "Riego por goteo",
+          "descripcion": "Optimiza el uso del agua, reduciendo desperdicios y manteniendo la humedad ideal del suelo."
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "nombre": "Tomate",
+    "categoria": "Verduras",
+    "precio": 22.00,
+    "imagen": "https://www.centralenlinea.com/images/thumbs/005/0059750_tomate-verde-grande-premium-sin-cascara_550.png",
+    "destacado": true,
+    "descripcion": "Tomate verde premium, sin cáscara, ideal para salsas y platillos mexicanos.",
+    "beneficios": "Rico en antioxidantes, ayuda a la salud del corazón y la piel.",
+    "produccion": "Cultivado con fertilizantes naturales y control biológico de plagas.",
+    "detalles": {
+      "informacion": "Para su producción se utilizaron técnicas ecológicas como:",
+      "tecnicas": [
+        {
+          "nombre": "Control biológico de plagas",
+          "descripcion": "Uso de insectos benéficos para controlar plagas sin pesticidas químicos."
+        },
+        {
+          "nombre": "Abonos verdes",
+          "descripcion": "Cultivo de plantas específicas que luego se incorporan al suelo para enriquecerlo naturalmente."
+        }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "nombre": "Lechuga orejona",
+    "categoria": "Verduras",
+    "precio": 14.00,
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/semilla-de-lechuga-italiana-1000-D_NQ_NP_802789-MLM33044235762_112019-F_540x.jpg?v=1587758884",
+    "descripcion": "Lechuga fresca y crujiente, ideal para ensaladas y platillos saludables.",
+    "beneficios": "Baja en calorías, rica en fibra, vitaminas A y K.",
+    "produccion": "Cultivada sin pesticidas químicos y con abonos naturales.",
+    "detalles": {
+      "informacion": "Técnicas utilizadas:",
+      "tecnicas": [
+        {
+          "nombre": "Compostaje",
+          "descripcion": "Uso de restos orgánicos para enriquecer el suelo sin químicos."
+        },
+        {
+          "nombre": "Riego por goteo",
+          "descripcion": "Optimiza el uso del agua, reduciendo desperdicios y manteniendo la humedad ideal del suelo."
+        }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "nombre": "Pimiento rojo",
+    "categoria": "Verduras",
+    "precio": 26.00,
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/pimiento_morron_rojo_1024x1024_b720cf3f-7ee6-497d-9267-6ebd6d125d32_540x.jpg?v=1587495466",
+    "descripcion": "Cosechada localmente por 'Manzanas, La Conchita'. Fuente de fibra, vitamina C y E.",
+    "beneficios": "La manzana es una fruta rica en nutrientes. Fuente de fibra, vitamina C, E, K, potasio, cobre, además contiene antioxidantes y polifenoles.",
+    "produccion": "Producida en la Ciudad de México por la productora familiar 'Manzanas, La Conchita'.",
+    "detalles": {
+      "informacion": "Para el cultivo y cosecha de esta manzana se utilizaron técnicas agroecológicas como:",
+      "tecnicas": [
+        {
+          "nombre": "Sistema de captación de agua",
+          "descripcion": "Regada con agua de lluvia captada por medio de techos, con su respectivo sistema de riego por goteo."
+        },
+        {
+          "nombre": "Lombricomposta",
+          "descripcion": "Nutre y fertiliza el suelo haciéndolo más productivo y mitiga los daños por heladas y sequías, aumentando la respuesta a los fertilizantes."
+        }
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "nombre": "Cebolla",
+    "categoria": "Verduras",
+    "precio": 15.00,
+    "imagen": "https://www.centralenlinea.com/images/thumbs/006/0061467_cebolla-blanca-sin-pelar-chica_550.png",
+    "descripcion": "Cosechada localmente por 'Manzanas, La Conchita'. Fuente de fibra, vitamina C y E.",
+    "beneficios": "La manzana es una fruta rica en nutrientes. Fuente de fibra, vitamina C, E, K, potasio, cobre, además contiene antioxidantes y polifenoles.",
+    "produccion": "Producida en la Ciudad de México por la productora familiar 'Manzanas, La Conchita'.",
+    "detalles": {
+      "informacion": "Para el cultivo y cosecha de esta manzana se utilizaron técnicas agroecológicas como:",
+      "tecnicas": [
+        {
+          "nombre": "Sistema de captación de agua",
+          "descripcion": "Regada con agua de lluvia captada por medio de techos, con su respectivo sistema de riego por goteo."
+        },
+        {
+          "nombre": "Lombricomposta",
+          "descripcion": "Nutre y fertiliza el suelo haciéndolo más productivo y mitiga los daños por heladas y sequías, aumentando la respuesta a los fertilizantes."
+        }
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "nombre": "Ajo",
+    "categoria": "Verduras",
+    "precio": 8.00,
+    "imagen": "https://www.centralenlinea.com/images/thumbs/003/0035487_ajo-italiano-cabeza-grande_550.png",
+    "descripcion": "Cosechada localmente por 'Manzanas, La Conchita'. Fuente de fibra, vitamina C y E.",
+    "beneficios": "La manzana es una fruta rica en nutrientes. Fuente de fibra, vitamina C, E, K, potasio, cobre, además contiene antioxidantes y polifenoles.",
+    "produccion": "Producida en la Ciudad de México por la productora familiar 'Manzanas, La Conchita'.",
+    "detalles": {
+      "informacion": "Para el cultivo y cosecha de esta manzana se utilizaron técnicas agroecológicas como:",
+      "tecnicas": [
+        {
+          "nombre": "Sistema de captación de agua",
+          "descripcion": "Regada con agua de lluvia captada por medio de techos, con su respectivo sistema de riego por goteo."
+        },
+        {
+          "nombre": "Lombricomposta",
+          "descripcion": "Nutre y fertiliza el suelo haciéndolo más productivo y mitiga los daños por heladas y sequías, aumentando la respuesta a los fertilizantes."
+        }
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "nombre": "Papa",
+    "categoria": "Verduras",
+    "precio": 10.00,
+    "imagen": "https://www.centralenlinea.com/images/thumbs/006/0060301_papa-blanca-alfa-chica-125g-aprox_550.png",
+    "descripcion": "Cosechada localmente por 'Manzanas, La Conchita'. Fuente de fibra, vitamina C y E.",
+    "beneficios": "La manzana es una fruta rica en nutrientes. Fuente de fibra, vitamina C, E, K, potasio, cobre, además contiene antioxidantes y polifenoles.",
+    "produccion": "Producida en la Ciudad de México por la productora familiar 'Manzanas, La Conchita'.",
+    "detalles": {
+      "informacion": "Para el cultivo y cosecha de esta manzana se utilizaron técnicas agroecológicas como:",
+      "tecnicas": [
+        {
+          "nombre": "Sistema de captación de agua",
+          "descripcion": "Regada con agua de lluvia captada por medio de techos, con su respectivo sistema de riego por goteo."
+        },
+        {
+          "nombre": "Lombricomposta",
+          "descripcion": "Nutre y fertiliza el suelo haciéndolo más productivo y mitiga los daños por heladas y sequías, aumentando la respuesta a los fertilizantes."
+        }
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "nombre": "Calabacín",
+    "categoria": "Verduras",
+    "precio": 24.00,
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/0000000004067L_540x.jpg?v=1587757880",
+    "descripcion": "Cosechada localmente por 'Manzanas, La Conchita'. Fuente de fibra, vitamina C y E.",
+    "beneficios": "La manzana es una fruta rica en nutrientes. Fuente de fibra, vitamina C, E, K, potasio, cobre, además contiene antioxidantes y polifenoles.",
+    "produccion": "Producida en la Ciudad de México por la productora familiar 'Manzanas, La Conchita'.",
+    "detalles": {
+      "informacion": "Para el cultivo y cosecha de esta manzana se utilizaron técnicas agroecológicas como:",
+      "tecnicas": [
+        {
+          "nombre": "Sistema de captación de agua",
+          "descripcion": "Regada con agua de lluvia captada por medio de techos, con su respectivo sistema de riego por goteo."
+        },
+        {
+          "nombre": "Lombricomposta",
+          "descripcion": "Nutre y fertiliza el suelo haciéndolo más productivo y mitiga los daños por heladas y sequías, aumentando la respuesta a los fertilizantes."
+        }
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "nombre": "Brócoli",
+    "categoria": "Verduras",
+    "precio": 35.00,
+    "imagen": "https://www.centralenlinea.com/images/thumbs/005/0056592_brocoli-chico-400g-aprox_550.png",
+    "descripcion": "Cosechada localmente por 'La Conchita'. Fuente de fibra, vitamina C y E.",
+    "beneficios": "La manzana es una fruta rica en nutrientes. Fuente de fibra, vitamina C, E, K, potasio, cobre, además contiene antioxidantes y polifenoles.",
+    "produccion": "Producida en la Ciudad de México por la productora familiar 'Manzanas, La Conchita'.",
+    "detalles": {
+      "informacion": "Para el cultivo y cosecha de esta manzana se utilizaron técnicas agroecológicas como:",
+      "tecnicas": [
+        {
+          "nombre": "Sistema de captación de agua",
+          "descripcion": "Regada con agua de lluvia captada por medio de techos, con su respectivo sistema de riego por goteo."
+        },
+        {
+          "nombre": "Lombricomposta",
+          "descripcion": "Nutre y fertiliza el suelo haciéndolo más productivo y mitiga los daños por heladas y sequías, aumentando la respuesta a los fertilizantes."
+        }
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "nombre": "Espinaca",
+    "categoria": "Verduras",
+    "precio": 28.00,
+    "imagen": "https://www.centralenlinea.com/images/thumbs/000/0007067_espinaca-en-manojo-300g-aprox_550.jpeg",
+    "descripcion": "Cosechada localmente por 'Manzanas, La Conchita'. Fuente de fibra, vitamina C y E.",
+    "beneficios": "La manzana es una fruta rica en nutrientes. Fuente de fibra, vitamina C, E, K, potasio, cobre, además contiene antioxidantes y polifenoles.",
+    "produccion": "Producida en la Ciudad de México por la productora familiar 'Manzanas, La Conchita'.",
+    "detalles": {
+      "informacion": "Para el cultivo y cosecha de esta manzana se utilizaron técnicas agroecológicas como:",
+      "tecnicas": [
+        {
+          "nombre": "Sistema de captación de agua",
+          "descripcion": "Regada con agua de lluvia captada por medio de techos, con su respectivo sistema de riego por goteo."
+        },
+        {
+          "nombre": "Lombricomposta",
+          "descripcion": "Nutre y fertiliza el suelo haciéndolo más productivo y mitiga los daños por heladas y sequías, aumentando la respuesta a los fertilizantes."
+        }
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "nombre": "Pepino",
+    "categoria": "Verduras",
+    "precio": 18.00,
+    "imagen": "https://www.centralenlinea.com/images/thumbs/002/0023664_pepino-criollo-de-campo-abierto_550.png",
+    "descripcion": "Cosechada localmente por 'Manzanas, La Conchita'. Fuente de fibra, vitamina C y E.",
+    "beneficios": "La manzana es una fruta rica en nutrientes. Fuente de fibra, vitamina C, E, K, potasio, cobre, además contiene antioxidantes y polifenoles.",
+    "produccion": "Producida en la Ciudad de México por la productora familiar 'Manzanas, La Conchita'.",
+    "detalles": {
+      "informacion": "Para el cultivo y cosecha de esta manzana se utilizaron técnicas agroecológicas como:",
+      "tecnicas": [
+        {
+          "nombre": "Sistema de captación de agua",
+          "descripcion": "Regada con agua de lluvia captada por medio de techos, con su respectivo sistema de riego por goteo."
+        },
+        {
+          "nombre": "Lombricomposta",
+          "descripcion": "Nutre y fertiliza el suelo haciéndolo más productivo y mitiga los daños por heladas y sequías, aumentando la respuesta a los fertilizantes."
+        }
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "nombre": "Calabaza",
+    "categoria": "Verduras",
+    "precio": 48.00,
+    "imagen": "https://www.centralenlinea.com/images/thumbs/004/0043112_calabaza-de-castilla-grande-6kg-aprox_550.png",
+    "descripcion": "Cosechada localmente por 'Manzanas, La Conchita'. Fuente de fibra, vitamina C y E.",
+    "beneficios": "La manzana es una fruta rica en nutrientes. Fuente de fibra, vitamina C, E, K, potasio, cobre, además contiene antioxidantes y polifenoles.",
+    "produccion": "Producida en la Ciudad de México por la productora familiar 'Manzanas, La Conchita'.",
+    "detalles": {
+      "informacion": "Para el cultivo y cosecha de esta manzana se utilizaron técnicas agroecológicas como:",
+      "tecnicas": [
+        {
+          "nombre": "Sistema de captación de agua",
+          "descripcion": "Regada con agua de lluvia captada por medio de techos, con su respectivo sistema de riego por goteo."
+        },
+        {
+          "nombre": "Lombricomposta",
+          "descripcion": "Nutre y fertiliza el suelo haciéndolo más productivo y mitiga los daños por heladas y sequías, aumentando la respuesta a los fertilizantes."
+        }
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "nombre": "Limón",
+    "categoria": "Frutas",
+    "precio": 12.00,
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/cuadrado_e505ff87-961d-4fa1-a6f6-a7370b90c067_540x.jpg?v=1587758998",
+    "descripcion": "Cosechada localmente por 'Manzanas, La Conchita'. Fuente de fibra, vitamina C y E.",
+    "beneficios": "La manzana es una fruta rica en nutrientes. Fuente de fibra, vitamina C, E, K, potasio, cobre, además contiene antioxidantes y polifenoles.",
+    "produccion": "Producida en la Ciudad de México por la productora familiar 'Manzanas, La Conchita'.",
+    "detalles": {
+      "informacion": "Para el cultivo y cosecha de esta manzana se utilizaron técnicas agroecológicas como:",
+      "tecnicas": [
+        {
+          "nombre": "Sistema de captación de agua",
+          "descripcion": "Regada con agua de lluvia captada por medio de techos, con su respectivo sistema de riego por goteo."
+        },
+        {
+          "nombre": "Lombricomposta",
+          "descripcion": "Nutre y fertiliza el suelo haciéndolo más productivo y mitiga los daños por heladas y sequías, aumentando la respuesta a los fertilizantes."
+        }
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "nombre": "Uva",
+    "categoria": "Frutas",
+    "precio": 60.00,
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/iStock-121348678-thumbnail-540x540-70_540x.jpg?v=1587779941",
+    "descripcion": "Cosechada localmente por 'Manzanas, La Conchita'. Fuente de fibra, vitamina C y E.",
+    "beneficios": "La manzana es una fruta rica en nutrientes. Fuente de fibra, vitamina C, E, K, potasio, cobre, además contiene antioxidantes y polifenoles.",
+    "produccion": "Producida en la Ciudad de México por la productora familiar 'Manzanas, La Conchita'.",
+    "detalles": {
+      "informacion": "Para el cultivo y cosecha de esta manzana se utilizaron técnicas agroecológicas como:",
+      "tecnicas": [
+        {
+          "nombre": "Sistema de captación de agua",
+          "descripcion": "Regada con agua de lluvia captada por medio de techos, con su respectivo sistema de riego por goteo."
+        },
+        {
+          "nombre": "Lombricomposta",
+          "descripcion": "Nutre y fertiliza el suelo haciéndolo más productivo y mitiga los daños por heladas y sequías, aumentando la respuesta a los fertilizantes."
+        }
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "nombre": "Fresa",
+    "categoria": "Frutas",
+    "precio": 72.00,
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/1341264_540x.jpg?v=1589255705",
+    "descripcion": "Cosechada localmente por 'Manzanas, La Conchita'. Fuente de fibra, vitamina C y E.",
+    "beneficios": "La manzana es una fruta rica en nutrientes. Fuente de fibra, vitamina C, E, K, potasio, cobre, además contiene antioxidantes y polifenoles.",
+    "produccion": "Producida en la Ciudad de México por la productora familiar 'Manzanas, La Conchita'.",
+    "detalles": {
+      "informacion": "Para el cultivo y cosecha de esta manzana se utilizaron técnicas agroecológicas como:",
+      "tecnicas": [
+        {
+          "nombre": "Sistema de captación de agua",
+          "descripcion": "Regada con agua de lluvia captada por medio de techos, con su respectivo sistema de riego por goteo."
+        },
+        {
+          "nombre": "Lombricomposta",
+          "descripcion": "Nutre y fertiliza el suelo haciéndolo más productivo y mitiga los daños por heladas y sequías, aumentando la respuesta a los fertilizantes."
+        }
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "nombre": "Kiwi",
+    "categoria": "Frutas",
+    "precio": 43.00,
+    "imagen": "https://www.centralenlinea.com/images/thumbs/000/0006950_kiwi-importado_550.jpeg",
+    "descripcion": "Cosechada localmente por 'Manzanas, La Conchita'. Fuente de fibra, vitamina C y E.",
+    "beneficios": "La manzana es una fruta rica en nutrientes. Fuente de fibra, vitamina C, E, K, potasio, cobre, además contiene antioxidantes y polifenoles.",
+    "produccion": "Producida en la Ciudad de México por la productora familiar 'Manzanas, La Conchita'.",
+    "detalles": {
+      "informacion": "Para el cultivo y cosecha de esta manzana se utilizaron técnicas agroecológicas como:",
+      "tecnicas": [
+        {
+          "nombre": "Sistema de captación de agua",
+          "descripcion": "Regada con agua de lluvia captada por medio de techos, con su respectivo sistema de riego por goteo."
+        },
+        {
+          "nombre": "Lombricomposta",
+          "descripcion": "Nutre y fertiliza el suelo haciéndolo más productivo y mitiga los daños por heladas y sequías, aumentando la respuesta a los fertilizantes."
+        }
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "nombre": "Mango petacón",
+    "categoria": "Frutas",
+    "precio": 52.00,
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/388980_540x.jpg?v=1587779376",
+    "descripcion": "Cosechada localmente por 'Manzanas, La Conchita'. Fuente de fibra, vitamina C y E.",
+    "beneficios": "La manzana es una fruta rica en nutrientes. Fuente de fibra, vitamina C, E, K, potasio, cobre, además contiene antioxidantes y polifenoles.",
+    "produccion": "Producida en la Ciudad de México por la productora familiar 'Manzanas, La Conchita'.",
+    "detalles": {
+      "informacion": "Para el cultivo y cosecha de esta manzana se utilizaron técnicas agroecológicas como:",
+      "tecnicas": [
+        {
+          "nombre": "Sistema de captación de agua",
+          "descripcion": "Regada con agua de lluvia captada por medio de techos, con su respectivo sistema de riego por goteo."
+        },
+        {
+          "nombre": "Lombricomposta",
+          "descripcion": "Nutre y fertiliza el suelo haciéndolo más productivo y mitiga los daños por heladas y sequías, aumentando la respuesta a los fertilizantes."
+        }
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "nombre": "Piña miel",
+    "categoria": "Frutas",
+    "precio": 60.00,
+    "imagen": "https://alacenademonica.com/cdn/shop/products/pina_600x.png?v=1633537231",
+    "descripcion": "Cosechada localmente por 'Manzanas, La Conchita'. Fuente de fibra, vitamina C y E.",
+    "beneficios": "La manzana es una fruta rica en nutrientes. Fuente de fibra, vitamina C, E, K, potasio, cobre, además contiene antioxidantes y polifenoles.",
+    "produccion": "Producida en la Ciudad de México por la productora familiar 'Manzanas, La Conchita'.",
+    "detalles": {
+      "informacion": "Para el cultivo y cosecha de esta manzana se utilizaron técnicas agroecológicas como:",
+      "tecnicas": [
+        {
+          "nombre": "Sistema de captación de agua",
+          "descripcion": "Regada con agua de lluvia captada por medio de techos, con su respectivo sistema de riego por goteo."
+        },
+        {
+          "nombre": "Lombricomposta",
+          "descripcion": "Nutre y fertiliza el suelo haciéndolo más productivo y mitiga los daños por heladas y sequías, aumentando la respuesta a los fertilizantes."
+        }
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "nombre": "Sandía",
+    "categoria": "Frutas",
+    "precio": 84.00,
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/2502868-00-CH515Wx515H_540x.jpg?v=1587779785",
+    "descripcion": "Cosechada localmente por 'Manzanas, La Conchita'. Fuente de fibra, vitamina C y E.",
+    "beneficios": "La manzana es una fruta rica en nutrientes. Fuente de fibra, vitamina C, E, K, potasio, cobre, además contiene antioxidantes y polifenoles.",
+    "produccion": "Producida en la Ciudad de México por la productora familiar 'Manzanas, La Conchita'.",
+    "detalles": {
+      "informacion": "Para el cultivo y cosecha de esta manzana se utilizaron técnicas agroecológicas como:",
+      "tecnicas": [
+        {
+          "nombre": "Sistema de captación de agua",
+          "descripcion": "Regada con agua de lluvia captada por medio de techos, con su respectivo sistema de riego por goteo."
+        },
+        {
+          "nombre": "Lombricomposta",
+          "descripcion": "Nutre y fertiliza el suelo haciéndolo más productivo y mitiga los daños por heladas y sequías, aumentando la respuesta a los fertilizantes."
+        }
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "nombre": "Melón",
+    "categoria": "Frutas",
+    "precio": 67.00,
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/2502866-00-CH515Wx515H_540x.jpg?v=1587779477",
+    "descripcion": "Cosechada localmente por 'Manzanas, La Conchita'. Fuente de fibra, vitamina C y E.",
+    "beneficios": "La manzana es una fruta rica en nutrientes. Fuente de fibra, vitamina C, E, K, potasio, cobre, además contiene antioxidantes y polifenoles.",
+    "produccion": "Producida en la Ciudad de México por la productora familiar 'Manzanas, La Conchita'.",
+    "detalles": {
+      "informacion": "Para el cultivo y cosecha de esta manzana se utilizaron técnicas agroecológicas como:",
+      "tecnicas": [
+        {
+          "nombre": "Sistema de captación de agua",
+          "descripcion": "Regada con agua de lluvia captada por medio de techos, con su respectivo sistema de riego por goteo."
+        },
+        {
+          "nombre": "Lombricomposta",
+          "descripcion": "Nutre y fertiliza el suelo haciéndolo más productivo y mitiga los daños por heladas y sequías, aumentando la respuesta a los fertilizantes."
+        }
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "nombre": "Lima criolla",
+    "categoria": "Frutas",
+    "precio": 40.00,
+    "imagen": "https://www.centralenlinea.com/images/thumbs/005/0054387_lima-criolla_550.png",
+    "descripcion": "Cosechada localmente por 'Manzanas, La Conchita'. Fuente de fibra, vitamina C y E.",
+    "beneficios": "La manzana es una fruta rica en nutrientes. Fuente de fibra, vitamina C, E, K, potasio, cobre, además contiene antioxidantes y polifenoles.",
+    "produccion": "Producida en la Ciudad de México por la productora familiar 'Manzanas, La Conchita'.",
+    "detalles": {
+      "informacion": "Para el cultivo y cosecha de esta manzana se utilizaron técnicas agroecológicas como:",
+      "tecnicas": [
+        {
+          "nombre": "Sistema de captación de agua",
+          "descripcion": "Regada con agua de lluvia captada por medio de techos, con su respectivo sistema de riego por goteo."
+        },
+        {
+          "nombre": "Lombricomposta",
+          "descripcion": "Nutre y fertiliza el suelo haciéndolo más productivo y mitiga los daños por heladas y sequías, aumentando la respuesta a los fertilizantes."
+        }
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "nombre": "Mandarina",
+    "categoria": "Frutas",
+    "precio": 26.00,
+    "imagen": "https://mercadoacasa.mx/cdn/shop/files/IMG-3919_540x.jpg?v=1695928892",
+    "descripcion": "Cosechada localmente por 'Manzanas, La Conchita'. Fuente de fibra, vitamina C y E.",
+    "beneficios": "La manzana es una fruta rica en nutrientes. Fuente de fibra, vitamina C, E, K, potasio, cobre, además contiene antioxidantes y polifenoles.",
+    "produccion": "Producida en la Ciudad de México por la productora familiar 'Manzanas, La Conchita'.",
+    "detalles": {
+      "informacion": "Para el cultivo y cosecha de esta manzana se utilizaron técnicas agroecológicas como:",
+      "tecnicas": [
+        {
+          "nombre": "Sistema de captación de agua",
+          "descripcion": "Regada con agua de lluvia captada por medio de techos, con su respectivo sistema de riego por goteo."
+        },
+        {
+          "nombre": "Lombricomposta",
+          "descripcion": "Nutre y fertiliza el suelo haciéndolo más productivo y mitiga los daños por heladas y sequías, aumentando la respuesta a los fertilizantes."
+        }
+      ]
+    }
+  },
+  {
+    "id": 26,
+    "nombre": "Toronja",
+    "categoria": "Frutas",
+    "precio": 31.00,
+    "imagen": "https://www.gastronomiavasca.net/uploads/image/file/3421/w700_pomelo_rosa.jpg",
+    "descripcion": "Cosechada localmente por 'Manzanas, La Conchita'. Fuente de fibra, vitamina C y E.",
+    "beneficios": "La manzana es una fruta rica en nutrientes. Fuente de fibra, vitamina C, E, K, potasio, cobre, además contiene antioxidantes y polifenoles.",
+    "produccion": "Producida en la Ciudad de México por la productora familiar 'Manzanas, La Conchita'.",
+    "detalles": {
+      "informacion": "Para el cultivo y cosecha de esta manzana se utilizaron técnicas agroecológicas como:",
+      "tecnicas": [
+        {
+          "nombre": "Sistema de captación de agua",
+          "descripcion": "Regada con agua de lluvia captada por medio de techos, con su respectivo sistema de riego por goteo."
+        },
+        {
+          "nombre": "Lombricomposta",
+          "descripcion": "Nutre y fertiliza el suelo haciéndolo más productivo y mitiga los daños por heladas y sequías, aumentando la respuesta a los fertilizantes."
+        }
+      ]
+    }
+  },
+  {
+    "id": 50,
+    "nombre": "Chirimoya",
+    "categoria": "Frutas",
+    "precio": 72.00,
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/chirimoya_1296x.jpg?v=1607364774",
+    "descripcion": "Cosechada localmente por 'Manzanas, La Conchita'. Fuente de fibra, vitamina C y E.",
+    "beneficios": "La manzana es una fruta rica en nutrientes. Fuente de fibra, vitamina C, E, K, potasio, cobre, además contiene antioxidantes y polifenoles.",
+    "produccion": "Producida en la Ciudad de México por la productora familiar 'Manzanas, La Conchita'.",
+    "detalles": {
+      "informacion": "Para el cultivo y cosecha de esta manzana se utilizaron técnicas agroecológicas como:",
+      "tecnicas": [
+        {
+          "nombre": "Sistema de captación de agua",
+          "descripcion": "Regada con agua de lluvia captada por medio de techos, con su respectivo sistema de riego por goteo."
+        },
+        {
+          "nombre": "Lombricomposta",
+          "descripcion": "Nutre y fertiliza el suelo haciéndolo más productivo y mitiga los daños por heladas y sequías, aumentando la respuesta a los fertilizantes."
+        }
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "nombre": "Chile guajillo seco",
+    "categoria": "Chiles secos",
+    "precio": 0.70,
+    "stock": 130,
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/chile-guajillo-seco-100g-13654635479112_600x_274e3ad5-32ac-4a1b-ad77-78c14b1029cf_1080x.png?v=1587494783"
+  },
+  {
+    "id": 28,
+    "nombre": "Chile ancho seco",
+    "categoria": "Chiles secos",
+    "precio": 0.80,
+    "stock": 120,
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/chile-ancho_piment_sec_1296x.jpg?v=1587489207"
+  },
+  {
+    "id": 29,
+    "nombre": "Chile pasilla seco",
+    "categoria": "Chiles secos",
+    "precio": 0.90,
+    "stock": 110,
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/chile-pasilla_1296x.png?v=1587495625"
+  },
+  {
+    "id": 30,
+    "nombre": "Chile chipotle seco",
+    "categoria": "Chiles secos",
+    "precio": 1.00,
+    "stock": 100,
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/chilechipotleseco_1296x.jpg?v=1616440406"
+  },
+  {
+    "id": 31,
+    "nombre": "Chile cascabel seco",
+    "categoria": "Chiles secos",
+    "precio": 0.90,
+    "stock": 110,
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/chilecascabel_1296x.jpg?v=1602173310"
+  },
+  {
+    "id": 32,
+    "nombre": "Chile mulato seco",
+    "categoria": "Chiles secos",
+    "precio": 0.80,
+    "stock": 120,
+    "imagen": "https://clickabasto.com/cdn/shop/products/chile-mulato2_500x500.jpg?v=1655677333"
+  },
+  {
+    "id": 33,
+    "nombre": "Chile de agua seco",
+    "categoria": "Chiles secos",
+    "precio": 0.70,
+    "stock": 130,
+    "imagen": "https://www.mitiendita.fr/106-home_default/piment-de-guajillo-100g.jpg"
+  },
+  {
+    "id": 34,
+    "nombre": "Chile manzano",
+    "categoria": "Chiles",
+    "precio": 0.80,
+    "stock": 120,
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/0000000004711L1_1296x.jpg?v=1591677446"
+  },
+  {
+    "id": 35,
+    "nombre": "Chile piquín seco",
+    "categoria": "Chiles secos",
+    "precio": 0.90,
+    "stock": 110,
+    "imagen": "https://zaandeea.com/wp-content/uploads/2021/03/Chile-Piquin-Entero-Seco.jpeg"
+  },
+  {
+    "id": 36,
+    "nombre": "Aguacate",
+    "categoria": "Frutas",
+    "precio": 1.00,
+    "stock": 100,
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/aguacate_1080x.jpg?v=1587667720"
+  },
+  {
+    "id": 37,
+    "nombre": "Chile de onza seco",
+    "categoria": "Chiles secos",
+    "precio": 0.90,
+    "stock": 110,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_718869-MLM74283523948_022024-O.webp"
+  },
+  {
+    "id": 38,
+    "nombre": "Semilla de girasol",
+    "categoria": "Semillas",
+    "precio": 1.50,
+    "stock": 200,
+    "imagen": "https://mercadoacasa.mx/cdn/shop/products/alimentos_1296x.jpg?v=1587784127"
+  },
+  {
+    "id": 39,
+    "nombre": "Semilla de calabaza",
+    "categoria": "Semillas",
+    "precio": 1.80,
+    "stock": 150,
+    "imagen": "https://hebmx.vtexassets.com/arquivos/ids/658114/69066_1136944627.jpg?v=638520867989130000"
+  },
+  {
+    "id": 40,
+    "nombre": "Semilla de chía",
+    "categoria": "Semillas",
+    "precio": 2.50,
+    "stock": 100,
+    "imagen": "https://imag.bonviveur.com/semillas-de-chia-al-natural.jpg"
+  },
+  {
+    "id": 41,
+    "nombre": "Semilla de lino",
+    "categoria": "Semillas",
+    "precio": 2.00,
+    "stock": 120,
+    "imagen": "https://m.media-amazon.com/images/I/A1irhFW9O8L.jpg"
+  },
+  {
+    "id": 42,
+    "nombre": "Semilla de sésamo",
+    "categoria": "Semillas",
+    "precio": 1.70,
+    "stock": 180,
+    "imagen": "https://m.media-amazon.com/images/I/91nx40+NTAL.jpg"
+  },
+  {
+    "id": 43,
+    "nombre": "Semilla de amapola",
+    "categoria": "Semillas",
+    "precio": 2.20,
+    "stock": 90,
+    "imagen": "https://static.wixstatic.com/media/9e6903_8a33fdcbf34a4db78991588d1992ae3a~mv2.png/v1/fill/w_420,h_407,al_c,lg_1,q_85,enc_auto/9e6903_8a33fdcbf34a4db78991588d1992ae3a~mv2.png"
+  },
+  {
+    "id": 44,
+    "nombre": "Semilla de quinoa",
+    "categoria": "Semillas",
+    "precio": 3.00,
+    "stock": 80,
+    "imagen": "https://elbanquito.com.ar/wp-content/uploads/2020/09/semillas-de-quinoa-x-1-kg-el-banquito-market.jpg"
+  },
+  {
+    "id": 45,
+    "nombre": "Semilla de amaranto",
+    "categoria": "Semillas",
+    "precio": 2.80,
+    "stock": 70,
+    "imagen": "https://acdn.mitiendanube.com/stores/139/211/products/0092-semillas-de-amaranto-tienda-oeste-thumb-e3802a8fb1ed1043c815132810551546-640-0.jpg"
+  }
+]
