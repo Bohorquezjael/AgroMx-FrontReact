@@ -12,7 +12,7 @@ import DetallesProducto from './pages/DetallesProducto/DetallesProducto'
 import NuevosProductos from './pages/Productos/NuevosProductos'
 import { SobreNosotros } from './pages/SobreNosotros/SobreNosotros'
 import Inicio from './pages/Inicio';
-import Registro from './pages/Registro/registro';
+import Registro from './pages/Registro/Registro';
 
 
 
