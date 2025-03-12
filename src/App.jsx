@@ -37,9 +37,6 @@ function App() {
           <Route path="/Registro" element={<Registro />}></Route>
           <Route path="/DetallesProducto" element={<DetallesProducto />} />
           <Route path="/DeveloperTeam" element={<DeveloperTeam />} />
-
-
-
         </Routes>
 
         <Footer></Footer>
