@@ -82,7 +82,7 @@ const DetallesProducto = () => {
             </div>
             <div className="col-12 col-md-6 mt-5" id="info">
               <div className="fs-2" id="precio">
-                <p><strong>${producto.precio?.toFixed(2)}</strong></p>
+                <p><strong>${producto.precio?.toFixed(2)} MXN</strong></p>
               </div>
               <div id="descripcion">
                 <p>{producto.descripcion}</p>
