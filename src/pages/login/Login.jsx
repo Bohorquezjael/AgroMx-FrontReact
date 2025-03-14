@@ -1,5 +1,5 @@
 import "./login.css";
-import { jwtDecode } from "jwt-decode";
+import {jwtDecode} from "jwt-decode";
 import { useEffect, useContext, useState } from "react";
 import { UserContext } from "../../context/UserContext";
 import { useNavigate } from "react-router-dom";
@@ -16,7 +16,7 @@ function Login() {
 		const decodedToken = jwtDecode(token);
 		console.log(decodedToken);
 		setUser(decodedToken);
-		// Aquí puedes manejar la información del usuario decodificada
+		localStorage.setItem("userData", JSON.stringify(decodedToken)); // Guardar en localStorage
 		setTimeout(() => {
 			navigate("/Inicio");
 		}, 2000); // Retraso de 2 segundos antes de redirigir
@@ -24,43 +24,36 @@ function Login() {
 
 	useEffect(() => {
 		window.handleGoogleResponse = handleGoogleResponse;
+		const storedUser = JSON.parse(localStorage.getItem("userData"));
+		if (storedUser) {
+			setUser(storedUser);
+		}
 	}, []);
 
 	const handleEmailChange = (e) => {
 		const value = e.target.value;
-        setEmail(value);
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (!emailRegex.test(value)) {
-            setError("Correo electrónico no válido");
-        } else {
-            setError("");
-        }
-    };
+		const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+		if (!emailRegex.test(value)) {
+			setError("Correo electrónico no válido");
+		} else {
+			setError("");
+		}
+		setEmail(value);
+	};
 
 	const handlePasswordChange = (e) => {
 		setPassword(e.target.value);
 	};
 
-	// const handleSubmit = (e) => {
-	// 	e.preventDefault();
-	// 	if (email === "" || password === "") {
-	// 		setError("Todos los campos son obligatorios");
-	// 		return;
-	// 	}
-	// 	// Guardar la información en localStorage
-	// 	localStorage.setItem("user", JSON.stringify({ email, password }));
-	// 	setError("");
-	// 	alert("Información guardada en localStorage");
-	// };
-
 	const handleLogin = () => {
-		const storedUser = JSON.parse(localStorage.getItem("user"));
-		if (
-			storedUser &&
-			storedUser.email === email &&
-			storedUser.password === password
-		) {
-			setUser(storedUser);
+		const users = JSON.parse(localStorage.getItem("userData")) || [];
+		const user = users.find(
+			(u) => u.email === email && u.password === password
+		);
+
+		if (user) {
+			setUser(user);
+			localStorage.setItem("userData", JSON.stringify(user)); // Guardar en localStorage
 			alert("Inicio de sesión exitoso");
 			setTimeout(() => {
 				navigate("/Inicio");
@@ -75,16 +68,14 @@ function Login() {
 			{user ? (
 				<div className="container login-card my-5 p-5">
 					<h1 className="titulo text-center">
-						Bienvenido, {user.name}
+						Bienvenid@, {user.name}
 					</h1>
 				</div>
 			) : (
 				<div className="container login-card my-5 p-5">
 					<h1 className="titulo text-center">Inicia sesión</h1> <hr />
 					<div className="container-fluid justify-content-center d-flex">
-						<form
-							className="form col-8 row justify-content-center"
-						>
+						<form className="form col-8 row justify-content-center">
 							<label
 								className="etiqueta me-2 form-label text-start"
 								htmlFor="correo"
@@ -121,13 +112,6 @@ function Login() {
 							>
 								Inicia sesión
 							</button>
-							{/* <button
-								className="btn btn-secondary w-100 addToCartBtn mt-3"
-								type="button"
-								onClick={handleLogin}
-							>
-								Iniciar sesión
-							</button> */}
 							{error && (
 								<p className="text-danger mt-3">{error}</p>
 							)}

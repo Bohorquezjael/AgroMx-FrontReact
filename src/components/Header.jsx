@@ -50,14 +50,14 @@ function Header() {
         </div>
 
         {/* Carrito y Avatar  */}
-        <div className="col-4 col-md-4 d-flex justify-content-end align-items-end mt-2 p-4 mt-md-0 ">
+        <div className="col-4 col-md-4 d-flex justify-content-end align-items-center gap-3 p-4 mt-md-0">
           <NavLink to={"/Carrito"} className="position-relative">
 
-            <i data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="right" title="Carrito" className="bi bi-basket2 mx-5 position-relative text-dark"></i>
+            <i data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" data-bs-placement="right" title="Carrito" className="bi bi-basket2 me-3 position-relative text-dark"></i>
             {/* <p style={{fontSize:"0.75rem", textAlign:"center"}}>Carrito</p> */}
             {countProducts > 0 && (
               <span className="position-absolute badge rounded-pill bg-danger"
-                style={{ fontSize: "0.75rem", top: "-5px", right: "50px", transform: "translate(50%, -50%)" }}>
+                style={{ fontSize: "0.75rem", top: "0px", right: "0px", transform: "translate(50%, -50%)" }}>
                 {countProducts}
               </span>
             )}
@@ -70,7 +70,7 @@ function Header() {
               <img
                 src={user.picture || "/images/default-profile.png"}
                 alt="Foto de perfil"
-                className="rounded-circle"
+                className="rounded-circle ms-3"
                 width="40"
                 height="40"
               />
